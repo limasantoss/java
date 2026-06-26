@@ -18,11 +18,11 @@ public class exercicio06ControledePedidosComMotivo {
                 default:
                     System.out.println("Pedido invalido");
             }
-            //primeira rodada case 1
+
             boolean pagamentoAprovado = pedido !=2;  // true
             boolean produtoDisponivel = pedido !=3; //  true
             boolean clienteBloqueado = pedido == 3; // false
-            // verificação final
+
             boolean pedidoLiberado = pagamentoAprovado  && produtoDisponivel &&  !clienteBloqueado;
 
             if(pedidoLiberado){
