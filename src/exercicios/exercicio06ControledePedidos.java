@@ -1,8 +1,6 @@
 package exericicios ;
 
-import javax.sound.midi.SysexMessage;
-
-public class exercicio06ControledePedidosComMotivo {
+public class exercicio06ControledePedidos {
     public static  void main(String[] args){
         for(int pedido = 1 ; pedido <=3; pedido++){
             switch (pedido){
