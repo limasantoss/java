@@ -5,7 +5,7 @@ public class Exercicio10ControleDeEntregas {
             switch (entrega){
                 case 1: // entrega liberada
                     System.out.println(" Entrega  " + entrega + " Pizza");
-                    break;
+                     break;
                 case 2:
                     System.out.println(" Entrega " + entrega + " Remédio");
                     break;
