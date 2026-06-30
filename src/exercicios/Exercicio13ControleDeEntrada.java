@@ -24,11 +24,12 @@ public  class Exercicio13ControleDeEntrada {
             boolean entradaPermitida = pessoas != 2; // 1 , 3,4
             boolean entradaNegada_ingressoInvalido = pessoas !=3; ;// 1 , 2 , 4
             boolean entradaNegada_documentoInvalido = pessoas == 3 ;
+
             if (entradaPermitida) {
                 System.out.println("Entrada Permitida");
             } else if (entradaNegada_ingressoInvalido) {
                 System.out.println(" Entrada Negada : ingresso invalido ");
-            }else if(entradaNegada_documentoInvalido){
+            }else if(entradaNegada_documentoInvalido) {
                 System.out.println("Entrada negada documento invalido");
             }
         }
